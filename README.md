@@ -1,2 +1,2 @@
 # exam-5
-CAS Exam 5
+Exam 5
