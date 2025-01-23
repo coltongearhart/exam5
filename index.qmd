@@ -1,0 +1,20 @@
+# Overview {.unnumbered}
+
+These notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating
+claim liabilities.
+
+<embed src="files/exam5-syllabus.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-0-0-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+::: callout-note
+## Quarto blog publish details
+
+This book was created using [Quarto](https://quarto.org/) and published with Github Pages.
+:::
+
+::: callout-tip
+## Github repository for code
+
+You can find the code to reproduce this project at [coltongearhart/exam5](https://github.com/coltongearhart/exam5).
+:::

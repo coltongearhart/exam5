@@ -1,0 +1,19 @@
+# Policies, coverages, and claims
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Notes 
+
+<embed src="files/ca-1-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-2b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-2c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
