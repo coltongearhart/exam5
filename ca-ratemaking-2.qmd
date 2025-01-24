@@ -1,4 +1,4 @@
-# Rate and benefit changes
+# The ratemaking process
 
 ```{r}
 #| label: load-prereqs
@@ -10,7 +10,7 @@ source("_common.R")
 
 ```
 
-## Notes 
+## Ratemaking principles, considerations and adjustments 
 
 <embed src="files/ca-2-1a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
@@ -19,4 +19,23 @@ source("_common.R")
 <embed src="files/ca-2-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 <embed src="files/ca-2-1d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Rate and benefit changes
+
+
+
+## Development
+
+
+
+## Trending
+
+
+
+## Expenses and profit
+
+
+
+## Overall rate level indications
+
 
