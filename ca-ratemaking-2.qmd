@@ -20,11 +20,23 @@ source("_common.R")
 
 <embed src="files/ca-2-1d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-2-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
 ## Rate and benefit changes
 
+<embed src="files/ca-2-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-2-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-2-2c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-2-2d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-2-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ## Development
+
+<embed src="files/ca-2-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 
 
