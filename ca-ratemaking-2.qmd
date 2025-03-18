@@ -36,8 +36,9 @@ source("_common.R")
 
 ## Development
 
-<embed src="files/ca-2-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+<embed src="files/ca-2-3a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-2-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 
 ## Trending
