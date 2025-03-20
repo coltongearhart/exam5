@@ -40,10 +40,19 @@ source("_common.R")
 
 <embed src="files/ca-2-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-2-3-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ## Trending
 
+<embed src="files/ca-2-4a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+We trend data **from** the historical period **over** the trend period **to** the forecast period.
+
+<embed src="files/ca-2-4b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-2-4c-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-2-4d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ## Expenses and profit
 
