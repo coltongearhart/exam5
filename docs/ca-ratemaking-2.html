@@ -96,7 +96,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
-}</script>
+}</script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 </head>
 <body class="nav-sidebar floating">
 
@@ -201,8 +226,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#rate-and-benefit-changes" id="toc-rate-and-benefit-changes" class="nav-link" data-scroll-target="#rate-and-benefit-changes"><span class="header-section-number">2.2</span> Rate and benefit changes</a></li>
   <li><a href="#development" id="toc-development" class="nav-link" data-scroll-target="#development"><span class="header-section-number">2.3</span> Development</a></li>
   <li><a href="#trending" id="toc-trending" class="nav-link" data-scroll-target="#trending"><span class="header-section-number">2.4</span> Trending</a></li>
-  <li><a href="#expenses-and-profit" id="toc-expenses-and-profit" class="nav-link" data-scroll-target="#expenses-and-profit"><span class="header-section-number">2.5</span> Expenses and profit</a></li>
-  <li><a href="#overall-rate-level-indications" id="toc-overall-rate-level-indications" class="nav-link" data-scroll-target="#overall-rate-level-indications"><span class="header-section-number">2.6</span> Overall rate level indications</a></li>
+  <li><a href="#example-not-in-book" id="toc-example-not-in-book" class="nav-link" data-scroll-target="#example-not-in-book"><span class="header-section-number">2.5</span> Example (not in book)</a></li>
+  <li><a href="#expenses-and-profit" id="toc-expenses-and-profit" class="nav-link" data-scroll-target="#expenses-and-profit"><span class="header-section-number">2.6</span> Expenses and profit</a></li>
+  <li><a href="#overall-rate-level-indications" id="toc-overall-rate-level-indications" class="nav-link" data-scroll-target="#overall-rate-level-indications"><span class="header-section-number">2.7</span> Overall rate level indications</a></li>
   </ul></nav>
     </div>
 <!-- main -->
@@ -215,10 +241,84 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <embed src="files/ca-2-3a-notes.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-3b-notes.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-3-summary.pdf" type="application/pdf" width="100%" height="1000px"></section><section id="trending" class="level2" data-number="2.4"><h2 data-number="2.4" class="anchored" data-anchor-id="trending">
 <span class="header-section-number">2.4</span> Trending</h2>
 <embed src="files/ca-2-4a-pdf.pdf" type="application/pdf" width="100%" height="1000px"><p>We trend data <strong>from</strong> the historical period <strong>over</strong> the trend period <strong>to</strong> the forecast period.</p>
-<embed src="files/ca-2-4b-pdf.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4c-pdf.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4d-notes.pdf" type="application/pdf" width="100%" height="1000px"></section><section id="expenses-and-profit" class="level2" data-number="2.5"><h2 data-number="2.5" class="anchored" data-anchor-id="expenses-and-profit">
-<span class="header-section-number">2.5</span> Expenses and profit</h2>
-</section><section id="overall-rate-level-indications" class="level2" data-number="2.6"><h2 data-number="2.6" class="anchored" data-anchor-id="overall-rate-level-indications">
-<span class="header-section-number">2.6</span> Overall rate level indications</h2>
+<embed src="files/ca-2-4b-pdf.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4c-pdf.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4d-notes.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4e-notes.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4f-notes.pdf" type="application/pdf" width="100%" height="1000px"><embed src="files/ca-2-4-summary.pdf" type="application/pdf" width="100%" height="1000px"></section><section id="example-not-in-book" class="level2" data-number="2.5"><h2 data-number="2.5" class="anchored" data-anchor-id="example-not-in-book">
+<span class="header-section-number">2.5</span> Example (not in book)</h2>
+<p>Imagine the following historical data without any adjustments:</p>
+<table class="caption-top table">
+<thead><tr class="header">
+<th>Year</th>
+<th>Earned Premium</th>
+<th>Incurred Loss</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>2016</td>
+<td>100</td>
+<td>90</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>120</td>
+<td>80</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td>125</td>
+<td>75</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>345</strong></td>
+<td><strong>245</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Now the question we have is, “Is the current price we’re charging adequate for our 2019 policies?”</p>
+<p>Let’s assume our current permissible loss ratio (the LR we need to achieve our desired profit) is 70%. So we measure our total incurred loss divided by our earned premium and get a loss ratio of <span class="math inline">\(245 / 345 = 71\%\)</span>, clearly our rates are close, but it looks like we need to bump it up a bit to hit our 70% loss ratio target.</p>
+<p>But hang on, we need to take loss adjustments into account. First there’s loss development. A losses ultimate settlement value isn’t known right away, and depending on the LOB it can develop upwards extremely highly for a long time. Let’s assume this is a short tail line and 2016 is fully developed. But we need to multiply 2017 by 1.1 and 2018 to 1.2 to get to our best guess of the ultimate values. Now our ultimate losses is <span class="math inline">\(90 + 80 (1.1) + 75(1.2) = 90 + 88 + 90 = 268\)</span>.</p>
+<p>But now there’s loss trend to account for. This is where inflation and the increased cost of repairs is taken into account (not in premium trend or leveling). If loss trend is 5% a year, our estimate of trended ultimate loss is: <span class="math inline">\((90 \times 1.05^3) + (88 \times 1.05^2) + (90 \times 1.05^1) = 295.71\)</span>. Notice the exponents are chosen to bring each year to the 2019 accident level.</p>
+<p>So now our Loss Ratio estimate is <span class="math inline">\(295.71 / 345 = 85.7\%\)</span> and our current rate looks woefully inadequate, but is it? We’ve adjusted losses properly, but we haven’t touched premium.</p>
+<p>2016 looks like it was a bad year, what happens if we looked at that in 2017 and decided to raise our rates for the 2018 year? In this example, let’s say we raised our rates 20% in 2018. If we don’t account for that rate increase, 2016 will still look like it’s a bad year and will cause us to raise our rates again, eventually leading to us charging too much. So we need to on-level our premiums to account for this. (If we never changed our rates, on-leveling would not be necessary regardless of exposure base and any other considerations). So our on level premium is:</p>
+<p><span class="math inline">\(100(1.2) + 120(1.2) + 125(1.0) = 120 + 144 + 125 = 389\)</span>, this is our on-level premium. It’s not taking into account inflation or any extrinsic factors, it’s merely reflecting the changes in our own rates that we already implemented from our historical data.</p>
+<p>Finally there’s premium trend. If this is a commercial property book, insuring the same collection of buildings every year, the exposure, and therefore the premium we collect, is going to rise every year, even if the rate remains the same. Our rate is based not per building, but based on a buildings value. The 100k building that we insured in 2016 might be worth 110k in 2019. So the 500 dollars of premium we have on our books would be 550 dollars in 2019, before accounting for any of our own rate changes. So we’ll be collecting more premium in 2019 than we have in our 2016 data.</p>
+<p>If it’s a law office where we charge per lawyer, there’s no need to trend the exposures, and we’d skip this step. 1 lawyer in 2016 is the same as 1 lawyer in 2019 from our rating perspective. Not from an insurance cost perspective (that’s what loss trend is for). But the same building in 2016 might generate 10% more premium in 2019, even if we don’t change our rates at all. This is why on-leveling isn’t sufficient for an inflationary exposure base.</p>
+<p>If premium trend is 4% our on-level trended premium is <span class="math inline">\((120 \times 1.04^3) + (144 \times 1.04^2) + (125 \times 1.04^1) = 420.73\)</span> (again exponents bring each year to 2019).</p>
+<p>So let’s look at our table again:</p>
+<table class="caption-top table">
+<thead><tr class="header">
+<th>Year</th>
+<th>OL Trended EP</th>
+<th>Trended Ultimate Incurred Loss</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>2016</td>
+<td>134.98</td>
+<td>104.19</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>155.75</td>
+<td>97.02</td>
+</tr>
+<tr class="odd">
+<td>2018</td>
+<td>130</td>
+<td>94.5</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td><strong>420.73</strong></td>
+<td><strong>295.71</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Where each premium number represents how much premium we’d collect for the same risks we had in a prior year if we wrote it it this year, and the loss column represents what we think the ultimate cost would be of those risks this year. So now we can finally look at our total loss ratio and determine that it’s nearly bang on 70% (<span class="math inline">\(295.71 / 420.73 = 70.3\%\)</span>) and we don’t needy to adjust our rates further.</p>
+<p>This demonstrates how the difference between on-leveling and premium trend and why both might be necessary.</p>
+</section><section id="expenses-and-profit" class="level2" data-number="2.6"><h2 data-number="2.6" class="anchored" data-anchor-id="expenses-and-profit">
+<span class="header-section-number">2.6</span> Expenses and profit</h2>
+</section><section id="overall-rate-level-indications" class="level2" data-number="2.7"><h2 data-number="2.7" class="anchored" data-anchor-id="overall-rate-level-indications">
+<span class="header-section-number">2.7</span> Overall rate level indications</h2>
 
 
 <!-- -->
@@ -760,12 +860,62 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>&lt;embed src="files/ca-2-4d-notes.pdf"type="application/pdf" width="100%" height="1000px"&gt;&lt;/embed&gt;</span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expenses and profit</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>&lt;embed src="files/ca-2-4e-notes.pdf"type="application/pdf" width="100%" height="1000px"&gt;&lt;/embed&gt;</span>
 <span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>&lt;embed src="files/ca-2-4f-notes.pdf"type="application/pdf" width="100%" height="1000px"&gt;&lt;/embed&gt;</span>
 <span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">## Overall rate level indications</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>&lt;embed src="files/ca-2-4-summary.pdf"type="application/pdf" width="100%" height="1000px"&gt;&lt;/embed&gt;</span>
 <span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="fu">## Example (not in book)</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>Imagine the following historical data without any adjustments:</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>Year     | Earned Premium | Incurred Loss</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>---------|----------------|--------------</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>2016     | 100            | 90</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>2017     | 120            | 80</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>2018     | 125            | 75</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>**Total**| **345**      | **245**</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>Now the question we have is, "Is the current price we're charging adequate for our 2019 policies?"</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>Let's assume our current permissible loss ratio (the LR we need to achieve our desired profit) is 70%. So we measure our total incurred loss divided by our earned premium and get a loss ratio of $245 / 345 = 71\%$, clearly our rates are close, but it looks like we need to bump it up a bit to hit our 70% loss ratio target.</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>But hang on, we need to take loss adjustments into account. First there's loss development. A losses ultimate settlement value isn't known right away, and depending on the LOB it can develop upwards extremely highly for a long time. Let's assume this is a short tail line and 2016 is fully developed. But we need to multiply 2017 by 1.1 and 2018 to 1.2 to get to our best guess of the ultimate values. Now our ultimate losses is $90 + 80 (1.1) + 75(1.2) = 90 + 88 + 90 = 268$.</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>But now there's loss trend to account for. This is where inflation and the increased cost of repairs is taken into account (not in premium trend or leveling). If loss trend is 5% a year, our estimate of trended ultimate loss is: $(90 \times 1.05^3) + (88 \times 1.05^2) + (90 \times 1.05^1) = 295.71$. Notice the exponents are chosen to bring each year to the 2019 accident level.</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>So now our Loss Ratio estimate is $295.71 / 345 = 85.7\%$ and our current rate looks woefully inadequate, but is it? We've adjusted losses properly, but we haven't touched premium.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>2016 looks like it was a bad year, what happens if we looked at that in 2017 and decided to raise our rates for the 2018 year? In this example, let's say we raised our rates 20% in 2018. If we don't account for that rate increase, 2016 will still look like it's a bad year and will cause us to raise our rates again, eventually leading to us charging too much. So we need to on-level our premiums to account for this. (If we never changed our rates, on-leveling would not be necessary regardless of exposure base and any other considerations). So our on level premium is:</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>$100(1.2) + 120(1.2) + 125(1.0) = 120 + 144 + 125 = 389$, this is our on-level premium. It's not taking into account inflation or any extrinsic factors, it's merely reflecting the changes in our own rates that we already implemented from our historical data.</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>Finally there's premium trend. If this is a commercial property book, insuring the same collection of buildings every year, the exposure, and therefore the premium we collect, is going to rise every year, even if the rate remains the same. Our rate is based not per building, but based on a buildings value. The 100k building that we insured in 2016 might be worth 110k in 2019. So the 500 dollars of premium we have on our books would be 550 dollars in 2019, before accounting for any of our own rate changes. So we'll be collecting more premium in 2019 than we have in our 2016 data.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>If it's a law office where we charge per lawyer, there's no need to trend the exposures, and we'd skip this step. 1 lawyer in 2016 is the same as 1 lawyer in 2019 from our rating perspective. Not from an insurance cost perspective (that's what loss trend is for). But the same building in 2016 might generate 10% more premium in 2019, even if we don't change our rates at all. This is why on-leveling isn't sufficient for an inflationary exposure base.</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>If premium trend is 4% our on-level trended premium is $(120 \times 1.04^3) + (144 \times 1.04^2) + (125 \times 1.04^1) = 420.73$ (again exponents bring each year to 2019).</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>So let's look at our table again:</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>Year     | OL Trended EP | Trended Ultimate Incurred Loss</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>---------|---------------|-------------------------------</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>2016     | 134.98        | 104.19</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>2017     | 155.75        | 97.02</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>2018     | 130           | 94.5</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>**Total**| **420.73**    | **295.71**</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>Where each premium number represents how much premium we'd collect for the same risks we had in a prior year if we wrote it it this year, and the loss column represents what we think the ultimate cost would be of those risks this year. So now we can finally look at our total loss ratio and determine that it's nearly bang on 70% ($295.71 / 420.73 = 70.3\%$) and we don't needy to adjust our rates further.</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>This demonstrates how the difference between on-leveling and premium trend and why both might be necessary.</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="fu">## Expenses and profit</span></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a><span class="fu">## Overall rate level indications</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
 </code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
