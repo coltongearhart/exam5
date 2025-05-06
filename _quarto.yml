@@ -14,6 +14,7 @@ book:
       chapters:
         - ca-ratemaking-1.qmd
         - ca-ratemaking-2.qmd
+        - ca-ratemaking-3.qmd
 
     - part: partB-estimating-claim-liabilities.qmd
       chapters:

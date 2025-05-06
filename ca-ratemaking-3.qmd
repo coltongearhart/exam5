@@ -1,0 +1,35 @@
+# Risk classification
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Traditional risk classification
+
+<embed src="files/ca-3-1a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Multivariate classification
+
+
+
+## Special classification
+
+
+
+## Credibility
+
+
