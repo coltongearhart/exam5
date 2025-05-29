@@ -24,11 +24,21 @@ source("_common.R")
 
 ## Multivariate classification
 
+<embed src="files/ca-3-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-3-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-2c-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-2d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ## Special classification
 
+<embed src="files/ca-3-3a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-3-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ## Credibility
 
