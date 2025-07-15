@@ -1,0 +1,43 @@
+# Insurance basics
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## The fundamental insurance equation 
+
+<embed src="files/ca-1-1a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-1b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Policies, coverages, and claims
+
+<embed src="files/ca-1-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-2b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-2c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Understanding insurance data
+
+<embed src="files/ca-1-3a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-3c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-3d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-3e-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-1-3-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>

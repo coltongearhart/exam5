@@ -1,0 +1,57 @@
+# Risk classification
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Traditional risk classification
+
+<embed src="files/ca-3-1a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Multivariate classification
+
+<embed src="files/ca-3-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-2c-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-2d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Special classification
+
+<embed src="files/ca-3-3a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3e-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-3-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Credibility
+
+<embed src="files/ca-3-4a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-4b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-4c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-3-4-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>

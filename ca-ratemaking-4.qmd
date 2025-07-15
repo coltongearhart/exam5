@@ -1,0 +1,28 @@
+# Implementation
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Constraints and considerations
+
+<embed src="files/ca-4-1a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-1b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-1c-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-1d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Finalizing rates
+
+<embed src="files/ca-4-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+

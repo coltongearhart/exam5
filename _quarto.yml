@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Exam 5"
+  author: "Colton Gearhart"
+  date: "1/3/25"
+  cover-image: exam5.png
+  chapters:
+    - index.qmd
+
+    - part: partA-ratemaking.qmd
+      chapters:
+        - ca-ratemaking-1.qmd
+        - ca-ratemaking-2.qmd
+        - ca-ratemaking-3.qmd
+        - ca-ratemaking-4.qmd
+        
+    - part: partB-estimating-claim-liabilities.qmd
+      chapters:
+        - placeholder.qmd
+
+format:
+  html:
+    theme: flatly
+    code-link: true
+    #code-fold: show
+    code-tools: true
+    number-depth: 3
+    toc-depth: 4
+    code-block-border-left: "#2C3E50"
+    highlight-style: github
+    grid:
+      sidebar-width: 200px
+      body-width: 1200px
+      margin-width: 200px
+      gutter-width: 1rem
+    
+title-block-banner: true
