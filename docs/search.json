@@ -1,5 +1,202 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exam 5",
+    "section": "",
+    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-1.html",
+    "href": "ca-ratemaking-1.html",
+    "title": "\n1  Insurance basics\n",
+    "section": "",
+    "text": "1.1 The fundamental insurance equation",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Insurance basics</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-1.html#policies-coverages-and-claims",
+    "href": "ca-ratemaking-1.html#policies-coverages-and-claims",
+    "title": "\n1  Insurance basics\n",
+    "section": "\n1.2 Policies, coverages, and claims",
+    "text": "1.2 Policies, coverages, and claims",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Insurance basics</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-1.html#understanding-insurance-data",
+    "href": "ca-ratemaking-1.html#understanding-insurance-data",
+    "title": "\n1  Insurance basics\n",
+    "section": "\n1.3 Understanding insurance data",
+    "text": "1.3 Understanding insurance data",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Insurance basics</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html",
+    "href": "ca-ratemaking-2.html",
+    "title": "\n2  The ratemaking process\n",
+    "section": "",
+    "text": "2.1 Ratemaking principles, considerations and adjustments",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#rate-and-benefit-changes",
+    "href": "ca-ratemaking-2.html#rate-and-benefit-changes",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.2 Rate and benefit changes",
+    "text": "2.2 Rate and benefit changes",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#development",
+    "href": "ca-ratemaking-2.html#development",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.3 Development",
+    "text": "2.3 Development",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#trending",
+    "href": "ca-ratemaking-2.html#trending",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.4 Trending",
+    "text": "2.4 Trending\nWe trend data from the historical period over the trend period to the forecast period.",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#example-not-in-book",
+    "href": "ca-ratemaking-2.html#example-not-in-book",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.5 Example (not in book)",
+    "text": "2.5 Example (not in book)\nImagine the following historical data without any adjustments:\n\n\nYear\nEarned Premium\nIncurred Loss\n\n\n\n2016\n100\n90\n\n\n2017\n120\n80\n\n\n2018\n125\n75\n\n\nTotal\n345\n245\n\n\n\nNow the question we have is, “Is the current price we’re charging adequate for our 2019 policies?”\nLet’s assume our current permissible loss ratio (the LR we need to achieve our desired profit) is 70%. So we measure our total incurred loss divided by our earned premium and get a loss ratio of \\(245 / 345 = 71\\%\\), clearly our rates are close, but it looks like we need to bump it up a bit to hit our 70% loss ratio target.\nBut hang on, we need to take loss adjustments into account. First there’s loss development. A losses ultimate settlement value isn’t known right away, and depending on the LOB it can develop upwards extremely highly for a long time. Let’s assume this is a short tail line and 2016 is fully developed. But we need to multiply 2017 by 1.1 and 2018 to 1.2 to get to our best guess of the ultimate values. Now our ultimate losses is \\(90 + 80 (1.1) + 75(1.2) = 90 + 88 + 90 = 268\\).\nBut now there’s loss trend to account for. This is where inflation and the increased cost of repairs is taken into account (not in premium trend or leveling). If loss trend is 5% a year, our estimate of trended ultimate loss is: \\((90 \\times 1.05^3) + (88 \\times 1.05^2) + (90 \\times 1.05^1) = 295.71\\). Notice the exponents are chosen to bring each year to the 2019 accident level.\nSo now our Loss Ratio estimate is \\(295.71 / 345 = 85.7\\%\\) and our current rate looks woefully inadequate, but is it? We’ve adjusted losses properly, but we haven’t touched premium.\n2016 looks like it was a bad year, what happens if we looked at that in 2017 and decided to raise our rates for the 2018 year? In this example, let’s say we raised our rates 20% in 2018. If we don’t account for that rate increase, 2016 will still look like it’s a bad year and will cause us to raise our rates again, eventually leading to us charging too much. So we need to on-level our premiums to account for this. (If we never changed our rates, on-leveling would not be necessary regardless of exposure base and any other considerations). So our on level premium is:\n\\(100(1.2) + 120(1.2) + 125(1.0) = 120 + 144 + 125 = 389\\), this is our on-level premium. It’s not taking into account inflation or any extrinsic factors, it’s merely reflecting the changes in our own rates that we already implemented from our historical data.\nFinally there’s premium trend. If this is a commercial property book, insuring the same collection of buildings every year, the exposure, and therefore the premium we collect, is going to rise every year, even if the rate remains the same. Our rate is based not per building, but based on a buildings value. The 100k building that we insured in 2016 might be worth 110k in 2019. So the 500 dollars of premium we have on our books would be 550 dollars in 2019, before accounting for any of our own rate changes. So we’ll be collecting more premium in 2019 than we have in our 2016 data.\nIf it’s a law office where we charge per lawyer, there’s no need to trend the exposures, and we’d skip this step. 1 lawyer in 2016 is the same as 1 lawyer in 2019 from our rating perspective. Not from an insurance cost perspective (that’s what loss trend is for). But the same building in 2016 might generate 10% more premium in 2019, even if we don’t change our rates at all. This is why on-leveling isn’t sufficient for an inflationary exposure base.\nIf premium trend is 4% our on-level trended premium is \\((120 \\times 1.04^3) + (144 \\times 1.04^2) + (125 \\times 1.04^1) = 420.73\\) (again exponents bring each year to 2019).\nSo let’s look at our table again:\n\n\nYear\nOL Trended EP\nTrended Ultimate Incurred Loss\n\n\n\n2016\n134.98\n104.19\n\n\n2017\n155.75\n97.02\n\n\n2018\n130\n94.5\n\n\nTotal\n420.73\n295.71\n\n\n\nWhere each premium number represents how much premium we’d collect for the same risks we had in a prior year if we wrote it it this year, and the loss column represents what we think the ultimate cost would be of those risks this year. So now we can finally look at our total loss ratio and determine that it’s nearly bang on 70% (\\(295.71 / 420.73 = 70.3\\%\\)) and we don’t needy to adjust our rates further.\nThis demonstrates how the difference between on-leveling and premium trend and why both might be necessary.",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#expenses-and-profit",
+    "href": "ca-ratemaking-2.html#expenses-and-profit",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.6 Expenses and profit",
+    "text": "2.6 Expenses and profit",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-2.html#overall-rate-level-indications",
+    "href": "ca-ratemaking-2.html#overall-rate-level-indications",
+    "title": "\n2  The ratemaking process\n",
+    "section": "\n2.7 Overall rate level indications",
+    "text": "2.7 Overall rate level indications",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>The ratemaking process</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-3.html",
+    "href": "ca-ratemaking-3.html",
+    "title": "\n3  Risk classification\n",
+    "section": "",
+    "text": "3.1 Traditional risk classification",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Risk classification</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-3.html#multivariate-classification",
+    "href": "ca-ratemaking-3.html#multivariate-classification",
+    "title": "\n3  Risk classification\n",
+    "section": "\n3.2 Multivariate classification",
+    "text": "3.2 Multivariate classification",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Risk classification</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-3.html#special-classification",
+    "href": "ca-ratemaking-3.html#special-classification",
+    "title": "\n3  Risk classification\n",
+    "section": "\n3.3 Special classification",
+    "text": "3.3 Special classification",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Risk classification</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-3.html#credibility",
+    "href": "ca-ratemaking-3.html#credibility",
+    "title": "\n3  Risk classification\n",
+    "section": "\n3.4 Credibility",
+    "text": "3.4 Credibility",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Risk classification</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-4.html",
+    "href": "ca-ratemaking-4.html",
+    "title": "\n4  Implementation\n",
+    "section": "",
+    "text": "4.1 Constraints and considerations",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Implementation</span>"
+    ]
+  },
+  {
+    "objectID": "ca-ratemaking-4.html#finalizing-rates",
+    "href": "ca-ratemaking-4.html#finalizing-rates",
+    "title": "\n4  Implementation\n",
+    "section": "\n4.2 Finalizing rates",
+    "text": "4.2 Finalizing rates",
+    "crumbs": [
+      "Ratemaking",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Implementation</span>"
+    ]
+  },
+  {
+    "objectID": "placeholder.html",
+    "href": "placeholder.html",
+    "title": "\n5  Placeholder\n",
+    "section": "",
+    "text": "5.1 Notes",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Placeholder</span>"
+    ]
+  },
+  {
     "objectID": "partA-ratemaking.html",
     "href": "partA-ratemaking.html",
     "title": "Ratemaking",
@@ -7,17 +204,6 @@
     "text": "This section contains notes for Part A of the syllabus: Ratemaking.",
     "crumbs": [
       "Ratemaking"
-    ]
-  },
-  {
-    "objectID": "placeholder.html",
-    "href": "placeholder.html",
-    "title": "\n1  Placeholder\n",
-    "section": "",
-    "text": "1.1 Notes",
-    "crumbs": [
-      "Estimating claim liabilities",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Placeholder</span>"
     ]
   },
   {

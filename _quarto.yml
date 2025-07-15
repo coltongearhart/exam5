@@ -11,12 +11,12 @@ book:
     - index.qmd
 
     - part: partA-ratemaking.qmd
-      #chapters:
-        #- ca-ratemaking-1.qmd
-        #- ca-ratemaking-2.qmd
-        #- ca-ratemaking-3.qmd
-        #- ca-ratemaking-4.qmd
-        
+      chapters:
+        - ca-ratemaking-1.qmd
+        - ca-ratemaking-2.qmd
+        - ca-ratemaking-3.qmd
+        - ca-ratemaking-4.qmd
+
     - part: partB-estimating-claim-liabilities.qmd
       chapters:
         - placeholder.qmd
@@ -36,5 +36,5 @@ format:
       body-width: 1200px
       margin-width: 200px
       gutter-width: 1rem
-    
+
 title-block-banner: true
