@@ -11,8 +11,8 @@ book:
     - index.qmd
 
     - part: partA-ratemaking.qmd
-      chapters:
-        - ca-ratemaking-1.qmd
+      #chapters:
+        #- ca-ratemaking-1.qmd
         #- ca-ratemaking-2.qmd
         #- ca-ratemaking-3.qmd
         #- ca-ratemaking-4.qmd
