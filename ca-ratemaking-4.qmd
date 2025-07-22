@@ -26,3 +26,16 @@ source("_common.R")
 
 <embed src="files/ca-4-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/ca-4-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2e-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2f-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2g-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-4-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
