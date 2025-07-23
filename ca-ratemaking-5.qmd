@@ -1,0 +1,21 @@
+# Other ratemaking topics
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Claims-made ratemaking
+
+<embed src="files/ca-5-1a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Commercial lines rating mechanisms
+
+<embed src="files/ca-5-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-5-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
