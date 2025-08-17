@@ -1,0 +1,81 @@
+# Basic reserving techniques
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Introduction to reserving principles
+
+<embed src="files/ca-6-1a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-1b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-1d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Chain ladder method
+
+<embed src="files/ca-6-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-2c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Expected claims method
+
+<embed src="files/ca-6-3a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-3b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-3c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-3-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Bornhuetter-Ferguson and Benktander methods
+
+<embed src="files/ca-6-4a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-4b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-4-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Cape Cod method
+
+<embed src="files/ca-6-5a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-5b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-5-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Frequency-severity techniques
+
+<embed src="files/ca-6-6a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-6b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-6c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-6d-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-6e-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-6-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Case outstanding techniques
+
+<embed src="files/ca-6-7a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-7b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-6-7-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>

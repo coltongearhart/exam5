@@ -237,5 +237,82 @@
       "Ratemaking",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Other ratemaking topics</span>"
     ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html",
+    "href": "ca-estimating-claim-liabilities-1.html",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "",
+    "text": "6.1 Introduction to reserving principles",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#chain-ladder-method",
+    "href": "ca-estimating-claim-liabilities-1.html#chain-ladder-method",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.2 Chain ladder method",
+    "text": "6.2 Chain ladder method",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#expected-claims-method",
+    "href": "ca-estimating-claim-liabilities-1.html#expected-claims-method",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.3 Expected claims method",
+    "text": "6.3 Expected claims method",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#bornhuetter-ferguson-and-benktander-methods",
+    "href": "ca-estimating-claim-liabilities-1.html#bornhuetter-ferguson-and-benktander-methods",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.4 Bornhuetter-Ferguson and Benktander methods",
+    "text": "6.4 Bornhuetter-Ferguson and Benktander methods",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#cape-cod-method",
+    "href": "ca-estimating-claim-liabilities-1.html#cape-cod-method",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.5 Cape Cod method",
+    "text": "6.5 Cape Cod method",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#frequency-severity-techniques",
+    "href": "ca-estimating-claim-liabilities-1.html#frequency-severity-techniques",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.6 Frequency-severity techniques",
+    "text": "6.6 Frequency-severity techniques",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-1.html#case-outstanding-techniques",
+    "href": "ca-estimating-claim-liabilities-1.html#case-outstanding-techniques",
+    "title": "\n6  Basic reserving techniques\n",
+    "section": "\n6.7 Case outstanding techniques",
+    "text": "6.7 Case outstanding techniques",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Basic reserving techniques</span>"
+    ]
   }
 ]
