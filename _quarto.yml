@@ -22,6 +22,7 @@ book:
     - part: partB-estimating-claim-liabilities.qmd
       chapters:
         - ca-estimating-claim-liabilities-1.qmd
+        - ca-estimating-claim-liabilities-2.qmd
 
 format:
   html:

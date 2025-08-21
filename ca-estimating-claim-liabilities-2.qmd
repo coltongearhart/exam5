@@ -1,0 +1,27 @@
+# Adjusting and evaluating reserving techniques
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Berquist-Sherman techniques
+
+<embed src="files/ca-7-1a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-7-1b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-7-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-7-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Evaluating reserving techniques
+
+<embed src="files/ca-7-2a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-7-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
