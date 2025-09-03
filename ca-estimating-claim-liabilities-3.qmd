@@ -1,0 +1,41 @@
+# Other reserving topics
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Recoveries: Salvage and subrogation and reinsurance
+
+<embed src="files/ca-8-1a-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-1b-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-1c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-1-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Estimating unpaid allocated claims adjustment expenses
+
+<embed src="files/ca-8-2a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-2b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-2-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+## Estimating unpaid unallocated claims adjustment expenses
+
+<embed src="files/ca-8-3a-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-3b-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-3c-notes.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-3d-pdf.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/ca-8-3-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>

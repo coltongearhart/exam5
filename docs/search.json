@@ -1,12 +1,35 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Exam 5",
+    "objectID": "ca-estimating-claim-liabilities-3.html",
+    "href": "ca-estimating-claim-liabilities-3.html",
+    "title": "\n8  Other reserving topics\n",
     "section": "",
-    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
+    "text": "8.1 Recoveries: Salvage and subrogation and reinsurance",
     "crumbs": [
-      "Overview"
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other reserving topics</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-3.html#estimating-unpaid-allocated-claims-adjustment-expenses",
+    "href": "ca-estimating-claim-liabilities-3.html#estimating-unpaid-allocated-claims-adjustment-expenses",
+    "title": "\n8  Other reserving topics\n",
+    "section": "\n8.2 Estimating unpaid allocated claims adjustment expenses",
+    "text": "8.2 Estimating unpaid allocated claims adjustment expenses",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other reserving topics</span>"
+    ]
+  },
+  {
+    "objectID": "ca-estimating-claim-liabilities-3.html#estimating-unpaid-unallocated-claims-adjustment-expenses",
+    "href": "ca-estimating-claim-liabilities-3.html#estimating-unpaid-unallocated-claims-adjustment-expenses",
+    "title": "\n8  Other reserving topics\n",
+    "section": "\n8.3 Estimating unpaid unallocated claims adjustment expenses",
+    "text": "8.3 Estimating unpaid unallocated claims adjustment expenses",
+    "crumbs": [
+      "Estimating claim liabilities",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Other reserving topics</span>"
     ]
   },
   {
@@ -186,37 +209,6 @@
     ]
   },
   {
-    "objectID": "placeholder.html",
-    "href": "placeholder.html",
-    "title": "\n5  Placeholder\n",
-    "section": "",
-    "text": "5.1 Notes",
-    "crumbs": [
-      "Estimating claim liabilities",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Placeholder</span>"
-    ]
-  },
-  {
-    "objectID": "partA-ratemaking.html",
-    "href": "partA-ratemaking.html",
-    "title": "Ratemaking",
-    "section": "",
-    "text": "This section contains notes for Part A of the syllabus: Ratemaking.",
-    "crumbs": [
-      "Ratemaking"
-    ]
-  },
-  {
-    "objectID": "partB-estimating-claim-liabilities.html",
-    "href": "partB-estimating-claim-liabilities.html",
-    "title": "Estimating claim liabilities",
-    "section": "",
-    "text": "This section contains notes for Part B of the syllabus: Estimating claim liabilities.",
-    "crumbs": [
-      "Estimating claim liabilities"
-    ]
-  },
-  {
     "objectID": "ca-ratemaking-5.html",
     "href": "ca-ratemaking-5.html",
     "title": "\n5  Other ratemaking topics\n",
@@ -335,6 +327,36 @@
     "crumbs": [
       "Estimating claim liabilities",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Adjusting and evaluating reserving techniques</span>"
+    ]
+  },
+  {
+    "objectID": "partA-ratemaking.html",
+    "href": "partA-ratemaking.html",
+    "title": "Ratemaking",
+    "section": "",
+    "text": "This section contains notes for Part A of the syllabus: Ratemaking.",
+    "crumbs": [
+      "Ratemaking"
+    ]
+  },
+  {
+    "objectID": "partB-estimating-claim-liabilities.html",
+    "href": "partB-estimating-claim-liabilities.html",
+    "title": "Estimating claim liabilities",
+    "section": "",
+    "text": "This section contains notes for Part B of the syllabus: Estimating claim liabilities.",
+    "crumbs": [
+      "Estimating claim liabilities"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exam 5",
+    "section": "",
+    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
+    "crumbs": [
+      "Overview"
     ]
   }
 ]
