@@ -1,0 +1,53 @@
+# Study guides
+
+```{r}
+#| label: load-prereqs
+#| echo: false
+#| message: false
+
+# knitr options
+source("_common.R")
+
+```
+
+## Ratemaking 
+
+### Insurance basics
+
+<embed src="files/study-guide-ratemaking-a.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+### The ratemaking process
+
+<embed src="files/study-guide-ratemaking-b.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/study-guide-ratemaking-c.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/study-guide-ratemaking-d.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+### Risk classification
+
+<embed src="files/study-guide-ratemaking-e.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+### Implementation
+
+<embed src="files/study-guide-ratemaking-f.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+### Other ratemaking topics
+
+## Estimating claim liabilities
+
+### Basic reserving techniques
+
+<embed src="files/study-guide-estimating-claim-liabilities-a.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+### Adjusting and evaluating reserving techniques
+
+### Other reserving topics
+
+## Final formula sheets
+
+<embed src="files/study-guide-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/exam-5-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+

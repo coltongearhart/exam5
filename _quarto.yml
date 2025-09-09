@@ -25,6 +25,10 @@ book:
         - ca-estimating-claim-liabilities-2.qmd
         - ca-estimating-claim-liabilities-3.qmd
 
+    - part: part-review.qmd
+      chapters:
+        - review-study-guides.qmd
+        
 format:
   html:
     theme: flatly
