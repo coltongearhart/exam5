@@ -402,5 +402,15 @@
     "crumbs": [
       "Review"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exam 5",
+    "section": "",
+    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
+    "crumbs": [
+      "Overview"
+    ]
   }
 ]
