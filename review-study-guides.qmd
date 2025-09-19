@@ -24,13 +24,17 @@ source("_common.R")
 
 <embed src="files/study-guide-ratemaking-d.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
+<embed src="files/study-guide-ratemaking-e.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
 ### Risk classification
 
-<embed src="files/study-guide-ratemaking-e.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+<embed src="files/study-guide-ratemaking-f.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+
+<embed src="files/study-guide-ratemaking-g.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ### Implementation
 
-<embed src="files/study-guide-ratemaking-f.pdf"type="application/pdf" width="100%" height="1000px"></embed>
+<embed src="files/study-guide-ratemaking-h.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 ### Other ratemaking topics
 

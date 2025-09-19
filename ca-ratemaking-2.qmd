@@ -60,7 +60,7 @@ We trend data **from** the historical period **over** the trend period **to** th
 
 <embed src="files/ca-2-4-summary.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-## Example (not in book)
+## Example (not in book) {.unnumbered}
 
 Imagine the following historical data without any adjustments:
 
