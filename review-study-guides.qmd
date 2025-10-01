@@ -12,46 +12,46 @@ source("_common.R")
 
 ## Ratemaking
 
-<!-- ### Insurance basics -->
+### Insurance basics
 
-<!-- <embed src="files/study-guide-ratemaking-a.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-a.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- ### The ratemaking process -->
+### The ratemaking process
 
-<!-- <embed src="files/study-guide-ratemaking-b.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-b.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- <embed src="files/study-guide-ratemaking-c.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-c.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- <embed src="files/study-guide-ratemaking-d.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-d.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- <embed src="files/study-guide-ratemaking-e.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-e.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- ### Risk classification -->
+### Risk classification
 
-<!-- <embed src="files/study-guide-ratemaking-f.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-f.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- <embed src="files/study-guide-ratemaking-g.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-g.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- ### Implementation -->
+### Implementation
 
-<!-- <embed src="files/study-guide-ratemaking-h.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-ratemaking-h.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- ### Other ratemaking topics -->
+### Other ratemaking topics
 
-<!-- ## Estimating claim liabilities -->
+## Estimating claim liabilities
 
-<!-- ### Basic reserving techniques -->
+### Basic reserving techniques
 
-<!-- <embed src="files/study-guide-estimating-claim-liabilities-a.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-estimating-claim-liabilities-a.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- ### Adjusting and evaluating reserving techniques -->
+### Adjusting and evaluating reserving techniques
 
-<!-- ### Other reserving topics -->
+### Other reserving topics
 
-<!-- ## Final formula sheets -->
+## Final formula sheets
 
-<!-- <embed src="files/study-guide-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/study-guide-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
-<!-- <embed src="files/exam-5-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed> -->
+<embed src="files/exam-5-formula-sheet.pdf"type="application/pdf" width="100%" height="1000px"></embed>
 
 
