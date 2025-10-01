@@ -1,46 +1,12 @@
 [
   {
-    "objectID": "review-study-guides.html",
-    "href": "review-study-guides.html",
-    "title": "\n9  Study guides\n",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Exam 5",
     "section": "",
-    "text": "9.1 Ratemaking",
+    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
     "crumbs": [
-      "Review",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
-    ]
-  },
-  {
-    "objectID": "review-study-guides.html#ratemaking",
-    "href": "review-study-guides.html#ratemaking",
-    "title": "\n9  Study guides\n",
-    "section": "",
-    "text": "9.1.1 Insurance basics\n\n9.1.2 The ratemaking process\n\n9.1.3 Risk classification\n\n9.1.4 Implementation\n\n9.1.5 Other ratemaking topics",
-    "crumbs": [
-      "Review",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
-    ]
-  },
-  {
-    "objectID": "review-study-guides.html#estimating-claim-liabilities",
-    "href": "review-study-guides.html#estimating-claim-liabilities",
-    "title": "\n9  Study guides\n",
-    "section": "\n9.2 Estimating claim liabilities",
-    "text": "9.2 Estimating claim liabilities\n\n9.2.1 Basic reserving techniques\n\n9.2.2 Adjusting and evaluating reserving techniques\n\n9.2.3 Other reserving topics",
-    "crumbs": [
-      "Review",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
-    ]
-  },
-  {
-    "objectID": "review-study-guides.html#final-formula-sheets",
-    "href": "review-study-guides.html#final-formula-sheets",
-    "title": "\n9  Study guides\n",
-    "section": "\n9.3 Final formula sheets",
-    "text": "9.3 Final formula sheets",
-    "crumbs": [
-      "Review",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
+      "Overview"
     ]
   },
   {
@@ -374,6 +340,50 @@
     ]
   },
   {
+    "objectID": "review-study-guides.html",
+    "href": "review-study-guides.html",
+    "title": "\n9  Study guides\n",
+    "section": "",
+    "text": "9.1 Ratemaking",
+    "crumbs": [
+      "Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
+    ]
+  },
+  {
+    "objectID": "review-study-guides.html#ratemaking",
+    "href": "review-study-guides.html#ratemaking",
+    "title": "\n9  Study guides\n",
+    "section": "",
+    "text": "9.1.1 Insurance basics\n\n9.1.2 The ratemaking process\n\n9.1.3 Risk classification\n\n9.1.4 Implementation\n\n9.1.5 Other ratemaking topics",
+    "crumbs": [
+      "Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
+    ]
+  },
+  {
+    "objectID": "review-study-guides.html#estimating-claim-liabilities",
+    "href": "review-study-guides.html#estimating-claim-liabilities",
+    "title": "\n9  Study guides\n",
+    "section": "\n9.2 Estimating claim liabilities",
+    "text": "9.2 Estimating claim liabilities\n\n9.2.1 Basic reserving techniques\n\n9.2.2 Adjusting and evaluating reserving techniques\n\n9.2.3 Other reserving topics",
+    "crumbs": [
+      "Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
+    ]
+  },
+  {
+    "objectID": "review-study-guides.html#final-formula-sheets",
+    "href": "review-study-guides.html#final-formula-sheets",
+    "title": "\n9  Study guides\n",
+    "section": "\n9.3 Final formula sheets",
+    "text": "9.3 Final formula sheets",
+    "crumbs": [
+      "Review",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Study guides</span>"
+    ]
+  },
+  {
     "objectID": "partA-ratemaking.html",
     "href": "partA-ratemaking.html",
     "title": "Ratemaking",
@@ -401,16 +411,6 @@
     "text": "This section contains study guides and practice exams.",
     "crumbs": [
       "Review"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Exam 5",
-    "section": "",
-    "text": "Overview\nThese notes are to prepare for Exam 5, which covers basic techniques for ratemaking and estimating claim liabilities.\n\n\n\n\n\n\n\n\n\n\nQuarto blog publish details\n\n\n\nThis book was created using Quarto and published with Github Pages.\n\n\n\n\n\n\n\n\nGithub repository for code\n\n\n\nYou can find the code to reproduce this project at coltongearhart/exam5.",
-    "crumbs": [
-      "Overview"
     ]
   }
 ]
